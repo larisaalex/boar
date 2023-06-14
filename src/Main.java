@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int amount = 1200;
+        int amount = 1500;
         if (amount < 1000) {
             amount = 0;
         }
@@ -19,9 +19,9 @@ public class Main {
 
         int bonus = amount / percent;
 
-        System.out.println("Итоговый счёт: " + amount);
+        int check= amount + balance;
 
-        System.out.println("Баланс счета: " + balance);
+        System.out.println("Итоговый счёт: " + check);
 
         System.out.println("Бонусные рубли: " + bonus);
     }
