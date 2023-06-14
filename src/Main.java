@@ -1,29 +1,24 @@
 public class Main {
     public static void main(String[] args) {
 
-        int amount = 100 + 1500;
+        int amount = 90 + 1200;
+        if (amount < 1090) {
+            amount = 1090;
+        }
         boolean isRegistered = true;
 
         int percent;
         if (isRegistered) {
             percent = 100;
         } else {
-            percent = 1000;
+            percent = 1;
         }
 
-        int bonus = amount / percent * 1;
+        int bonus = amount / percent;
 
         System.out.println("Итоговый счёт: " + amount);
 
         System.out.println("Бонусные рубли: " + bonus);
-
-        // Объявляете переменные для входных данных и
-        // параметров программы: начального счёта,
-        // суммы пополнения и тп
-
-        // Условным оператором проверяете, превысила ли
-        // сумма пополнения порог, и для этих двух разных
-        // сценариев рассчитываете сумму бонуса и выводите
-        // на экран.
     }
+
 }
