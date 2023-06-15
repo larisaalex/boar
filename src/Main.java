@@ -23,9 +23,6 @@ public class Main {
 
         int general = check + bonus;
 
-        //System.out.println("Итоговый счёт: " + check);
-
-        //System.out.println("Бонусные рубли: " + bonus);
 
         System.out.println("Итоговый счёт: " + general);
     }
