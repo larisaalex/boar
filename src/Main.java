@@ -21,9 +21,13 @@ public class Main {
 
         int check= amount + balance;
 
-        System.out.println("Итоговый счёт: " + check);
+        int general = check + bonus;
 
-        System.out.println("Бонусные рубли: " + bonus);
+        //System.out.println("Итоговый счёт: " + check);
+
+        //System.out.println("Бонусные рубли: " + bonus);
+
+        System.out.println("Итоговый счёт: " + general);
     }
 
 }
