@@ -1,30 +1,19 @@
 public class Main {
     public static void main(String[] args) {
+        int start = 90;
 
-        int amount = 1500;
-        if (amount < 1000) {
-            amount = 0;
-        }
+        int replenishment = 1500;
 
-        int balance = 90;
-
-        boolean isRegistered = true;
-
-        int percent;
-        if (isRegistered) {
-            percent = 100;
+        int bonus;
+        if (replenishment > 1000){
+            bonus = 100 * 1;
         } else {
-            percent = 1;
+            bonus = 1;
         }
-
-        int bonus = amount / percent;
-
-        int check= amount + balance;
+        int check = replenishment + start;
 
         int general = check + bonus;
 
-
         System.out.println("Итоговый счёт: " + general);
     }
-
 }
